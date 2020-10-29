@@ -14,5 +14,13 @@ class ComputeUnit(_num: Long){
         return "%X".format(this.num, 16)
     }
 
+    fun del_tail_char(): Unit {
+        if (this.num >= 10) {
+            var s = this.num.toString()
+            s = s.substring(0, s.length - 1)
+            this.num = s.toLong()
+        }
+
+    }
 
 }

@@ -34,7 +34,14 @@ class MainActivity : AppCompatActivity() {
         var num9Button: Button = findViewById(R.id.num9button)
         var num0Button: Button = findViewById(R.id.num0button)
 
+        var delbutton: Button = findViewById(R.id.delbutton)
         val limitlength: Int = 12
+
+        delbutton.setOnClickListener {
+            cu.del_tail_char()
+            textview1.setText(cu.get_hex())
+            editText1.setText(cu.num.toString())
+        }
 
         num1Button.setOnClickListener {
             var s = cu.num.toString()

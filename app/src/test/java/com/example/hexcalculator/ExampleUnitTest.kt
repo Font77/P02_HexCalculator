@@ -23,7 +23,11 @@ class ExampleUnitTest {
         assertEquals("A", cu.get_hex())
     }
 
-
-
+    @Test
+    fun del_char_isCorrect() {
+        var cu = ComputeUnit(30)
+        cu.del_tail_char()
+        assertEquals(3, cu.num)
+    }
 
 }
