@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HexCalculator</string>
+    <string name="button1">ButtonXXXX</string>
+    <string name="button2">Button</string>
+    <string name="_123">123</string>
+    <string name="inc">inc</string>
+    <string name="dec">dec</string>
+    <string name="_0">0</string>
+    <string name="clear">Clear</string>
+</resources>
